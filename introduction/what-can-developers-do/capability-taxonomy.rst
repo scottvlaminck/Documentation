@@ -38,11 +38,21 @@ capability has two required commands: ‘On’ and ‘Off’. When a device
 supports a specific capability, it must generally support all of the
 commands required of that capability.
 
+Custom Attributes & Commands
+----------------------------
+
+If you are integrating or building a device that requires an attribute
+or command that isn’t listed here, no problem! You can add a custom 
+attributes and custom commands to the platform yourself, and we will 
+then look for common threads across new custom attributes and commands 
+in order to determine which ones should be made part of the standard 
+taxonomy.
+
 Custom Capabilities
 -------------------
 
-If you are integrating or building a device that requires a capability
-that isn’t listed here, no problem! You can add a custom capability to
-the platform yourself, and we will then look for common threads across
-new custom capabilities in order to determine which ones should be made
-part of the standard taxonomy.
+Custom capabilities cannot currently be created on the platform. As 
+mentioned above, we look for common threads across new custom attributes 
+and custom commands looking for new capabilities that should be pulled 
+into the standard taxonomy.
+
